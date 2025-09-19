@@ -22,8 +22,8 @@ const noTexts = [
   "？你认真的吗…",
   "要不再想想？",
   "不许选这个！ ",
-  "我会很伤心…",
-  "不行:(",
+  "在点找人弄你…",
+  "你玩真的啊:(",
 ];
 
 // No 按钮点击事件
@@ -77,3 +77,4 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
