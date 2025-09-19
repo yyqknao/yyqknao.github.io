@@ -57,7 +57,7 @@ noButton.addEventListener("click", function () {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!喜欢你!! ( >᎑<)♡︎ᐝ  ${
+const loveTest = `!!!感谢老铁支持!! ( >᎑<)♡︎ᐝ  ${
   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
 }`;
 
@@ -75,4 +75,5 @@ yesButton.addEventListener("click", function () {
 
   // 禁止滚动，保持页面美观
   document.body.style.overflow = "hidden";
+
 });
